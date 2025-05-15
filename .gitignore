@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+credit.txt
 # Distribution / packaging
 .Python
 build/
@@ -172,3 +172,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+local_s3
