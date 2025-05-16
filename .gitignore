@@ -173,4 +173,6 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-local_s3
+local_s3/
+data/
+models/
