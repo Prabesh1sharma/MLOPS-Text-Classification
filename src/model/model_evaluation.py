@@ -31,14 +31,10 @@ from src.logger import logging
 
 # Below code block is for local use
 # -------------------------------------------------------------------------------------
-CONFIG = {
-    "mlflow_tracking_uri": os.getenv("mlflow_tracking_uri"),
-    "dagshub_repo_owner": os.getenv("dagshub_repo_owner"),
-    "dagshub_repo_name": os.getenv("dagshub_repo_name")
-}
 
-mlflow.set_tracking_uri(CONFIG["mlflow_tracking_uri"])
-dagshub.init(repo_owner=CONFIG["dagshub_repo_owner"], repo_name=CONFIG["dagshub_repo_name"], mlflow=True)
+
+mlflow.set_tracking_uri("https://dagshub.com/sharmaprabesh2027/MLOPS-Text-Classification.mlflow")
+dagshub.init(repo_owner="sharmaprabesh2027", repo_name="MLOPS-Text-Classification", mlflow=True)
 # -------------------------------------------------------------------------------------
 
 
