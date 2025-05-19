@@ -219,18 +219,6 @@ Ensure your AWS user has the following permissions:
 - `AmazonEKSWorkerNodePolicy`
 - `AmazonS3FullAccess`
 
-## 🧪 Testing
-
-```bash
-# Run unit tests
-python -m pytest tests/
-
-# Run integration tests
-python scripts/integration_tests.py
-
-# Performance testing
-python scripts/load_test.py
-```
 
 ## 📝 Key Learnings & Best Practices
 
@@ -303,7 +291,7 @@ eksctl get cluster --region us-east-1
 
 <div align="center">
 
-**If you found this project helpful, I very very thankful to myself**
+**If you found this project helpful, I very very thankful**
 
 
 </div>
